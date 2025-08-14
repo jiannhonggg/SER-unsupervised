@@ -1,11 +1,11 @@
 # Project Title : Unsupervised Speech Emotion Recognition (SER) using a Lexical-Paralinguistics Hybrid Approach
 
-This project explores an unsueprvised framework for Sppech Emotion Recogniton (SER) by combining lexcial features (what is being said). We leverage Small Languague Models (SLMs) to generate lexical features and a dedicated audion analysis tool for Paralinguistics (how something is being said) features to improve the clustering of speech emotions without relying on lableled data. 
+This project explores an unsueprvised framework for Speech Emotion Recogniton (SER) by combining lexcial features (what is being said). We leverage Small Languague Models (SLMs) to generate lexical features and a dedicated audion analysis tool for Paralinguistics (how something is being said) features to improve the clustering of speech emotions without relying on lableled data. 
 
 
 ### Introduction 
 
-Traditional SER systems often rely on supervised learning with expensive, labeled datasets, which can be a significant barrier to entry, especially for different languages or domains. This project addresses this limitation by proposing an
+Traditional SER systems often rely on supervised learning with expensive, labeled datasets, which can be a significant barrier to entry, especially for different languages or domains. This project addresses this limitation by proposing an Unsupervised Hybrid SER Framework
 
 Our core hypothesis is that fusing both lexical and paralinguistic features can lead to more semantically coherent clusters and better emotion recognition. We demonstrate that incorporating SLMs into this unsupervised approach can significantly improve clustering performance, circumventing the need for labeled data. 
 
@@ -35,3 +35,7 @@ This project has several limitations that can be addressed in future work:
 - Hyperparameter Tuning: We were unable to perform extensive hyperparameter tuning due to time and resource constraints. Further optimization could lead to better results.
 - Dataset Variety: The dataset was small and primarily limited to English speech. Future work should include a larger, more diverse dataset with various languages to test the model's adaptability.
 - SLM Exploration: We only evaluated three SLMs (BERT, DistilBERT, and RoBERTa). Exploring a wider range of models could lead to more efficient and cost-effective solutions.
+
+
+### Project Deliverables
+This project includes several key deliverables: a comprehensive report detailing the entire experiment, a set of Jupyter notebooks documenting the training data and results, and the codebase that implements the training methodology and steps.
